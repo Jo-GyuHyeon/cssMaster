@@ -7,9 +7,12 @@
     <title>FlexBox</title>
     <style>
         .father{
-            display: flex;
-            justify-content: space-between
-            /* flex 는 father에게 명령한 규칙은 children items들에게 영향을 끼치게 된다. */
+             /* flex 는 father에게 명령한 규칙은 children items들에게 영향을 끼치게 된다. */
+            display: flex; /* 밑바탕에 깔리 규칙을 axis 축이라고 한다. */
+            flex-direction: row;/* flex-direction: row  일 때 colum일 경우에는 수직 수평이 반대로 적용 */
+            justify-content: space-around; /* main axis는 justify-centent */
+            align-items: flex-end; /* corss axis는 align-items가 영향을 주는 축 */
+            height: 100vh;
         }
         .box{
             width: 300px;
