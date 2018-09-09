@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox</title>
+    <style>
+        .father{
+            display: flex;
+            justify-content: space-between
+            /* flex 는 father에게 명령한 규칙은 children items들에게 영향을 끼치게 된다. */
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="father">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+    </div>
+    
+</body>
+</html>
