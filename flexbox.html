@@ -8,10 +8,9 @@
     <style>
         .father{
             display: flex; 
-            flex-wrap: wrap; /* flexbox가 with 등의 속성들을 쓸때 default = nonwrap */
             justify-content: center; 
             height: 100vh;
-            flex-direction: row-reverse;
+            flex-wrap: wrap;
         }
         .box{
             width: 300px;
@@ -23,6 +22,10 @@
             align-items: center;
             color: white;
             font-size: 50px;
+        }
+        .box:first-child{
+            /* align-self는 아ㅠ의 align이 의미하듯이 cross-axis에서 각각의 아이템에 대해 정렬하는것 */
+            align-self: flex-end;
         }
     </style>
 </head>
