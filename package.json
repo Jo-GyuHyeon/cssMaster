@@ -1,0 +1,20 @@
+{
+  "name": "cssMaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jo-GyuHyeon@github.com/Jo-GyuHyeon/cssMaster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jo-GyuHyeon/cssMaster/issues"
+  },
+  "homepage": "https://github.com/Jo-GyuHyeon/cssMaster#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
