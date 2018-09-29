@@ -20,10 +20,15 @@ li:first-child a {
   color: #8e44ad;
 } */
 
-@custom-media --ipad-size (450px <= width < 850px);
+/* @custom-media --ipad-size (450px <= width < 850px);
 
 @media (--ipad-size){
   body{
     background-color: red;
   }
-} 
+}  */
+
+h1{
+ color: gray(0);
+ font-family: system-ui;
+}
