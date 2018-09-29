@@ -2,6 +2,20 @@
   background-color: blue;
 } */
 
-li:not(.target){
+/* li:not(.target){
   background-color: red;
+} */
+
+:root {
+  --awesomeColor: #2980b9;
+}
+
+li:first-child a {
+  color: var(--awesomeColor)l;
+}
+
+@custom-selector :--headers h1, h2, h3, h4, h5, h6;
+
+:--headers {
+  color: #8e44ad;
 }
