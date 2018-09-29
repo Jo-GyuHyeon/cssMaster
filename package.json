@@ -16,5 +16,15 @@
   "homepage": "https://github.com/Jo-GyuHyeon/cssMaster#readme",
   "scripts": {
     "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.0.7"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
   }
 }
